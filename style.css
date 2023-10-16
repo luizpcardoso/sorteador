@@ -1,0 +1,15 @@
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+body {
+  background-color: black;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: grey;
+}
