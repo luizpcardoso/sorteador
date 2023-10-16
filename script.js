@@ -16,7 +16,7 @@ const nomesDentro = [
   "Tia Mara",
   "Tio Adriano",
 ];
-const nomesFora = ["flavia"];
+const nomesFora = [];
 
 const card = (nome) => {
   const p = document.createElement("p");
@@ -53,6 +53,7 @@ const montarFora = () => {
   fora.innerHTML = "";
   nomesFora.forEach((nome) => {
     const cardNome = card(nome);
+    cardNome.classList.add("red");
     fora.append(cardNome);
   });
 };
